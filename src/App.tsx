@@ -221,6 +221,7 @@ const App = () => {
                 onClick={(e) => {
                   e.stopPropagation();
                   onClickDeleteItem(id);
+                  setFocusIndex(null);
                 }}
               >
                 <div style={{ marginRight: "6px" }}>&#10005;</div>
